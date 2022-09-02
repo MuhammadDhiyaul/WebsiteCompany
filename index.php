@@ -1,3 +1,10 @@
+<?php
+
+session_start();
+if(!isset($_SESSION["status"])) 
+header("Location: loginForm.php");
+?>
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -53,17 +60,10 @@
       </div>
 
       <button type="button" class="btn btn-dark">Daftar</button>
+      <a href="sessionLogout.php" type="button" class="btn btn-dark">Logout</a>
 
       </div>
     </nav>
-
-    <?php
-    // session_start();
-    // if ($_SESSION['status'] == 'login'){
-    //     // echo '<h1> Selamat Datang '.$_SESSION['username'].' </h1><br>';
-    //     echo '<a href="sessionLogout.php">Logout</a>';
-    // }
-    // ?>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
@@ -76,4 +76,3 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
    
   </body>
-</html>
