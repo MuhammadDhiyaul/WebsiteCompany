@@ -2,7 +2,7 @@
 
 session_start();
 if(!isset($_SESSION["status"])) 
-header("Location: loginForm.php");
+header("Location: login/loginForm.php");
 ?>
 
 <!doctype html>
@@ -28,6 +28,8 @@ header("Location: loginForm.php");
     <title>PT. SinarIndo Global Sarana</title>
   </head>
   <body>
+
+  <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container">
       <a class="navbar-brand" href="#">
@@ -39,13 +41,13 @@ header("Location: loginForm.php");
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav mx-auto">
           <li class="nav-item mx-3">
-            <a class="nav-link active" aria-current="page" href="#">Beranda</a>
+            <a class="nav-link active" aria-current="page" href="index.php">Beranda</a>
           </li>
           <li class="nav-item mx-3">
-            <a class="nav-link" href="#">Galeri</a>
+            <a class="nav-link" href="galeri.php">Galeri</a>
           </li>
           <li class="nav-item mx-3">
-            <a class="nav-link" href="#">Berita</a>
+            <a class="nav-link" href="berita.php">Berita</a>
           </li>
           <li class="nav-item mx-3 dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -59,18 +61,23 @@ header("Location: loginForm.php");
         </ul>
       </div>
 
-      <button type="button" class="btn btn-dark">Daftar</button>
-      <a href="sessionLogout.php" type="button" class="btn btn-dark">Logout</a>
+      <div class="navbar-button">
+        <a class="btn btn-dark" href="daftar.php">Daftar</a>
+        <a href="sessionLogout.php" type="button" class="btn btn-dark">Logout</a>
+      </div>
 
       </div>
     </nav>
 
-    <!-- Optional JavaScript; choose one of the two! -->
-
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> -->
-
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!-- Section 1 -->
+    <div class="p-5 mb-2 bg-light rounded-3 text-center">
+      <div class="container-fluid py-5">
+        <h1>PT. Sinarindo Global Sarana Hadir Untuk Kita Semua</h1>
+        <p>
+          PT. Sinarindo Global Sarana adalah Perusahaan Jasa K3(PJK3) bidang Pelatihan dan Konsultasi terhadap Sistem Manajemen, terutama Sistem Manajemen Keselamatan dan Kesehatan Kerja(SMK3).
+        </p>
+      </div>
+    </div>
     
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
