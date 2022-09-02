@@ -14,9 +14,9 @@ if ($rowcount>0) {
     $_SESSION['status'] = 'login';
 }
 if ($fechResult['role']=='admin') {
-    header("Location: index.php");
+    header("Location: ../index.php");
 }elseif ($fechResult['role']=='user') {
-    header("Location: index.php");
+    header("Location: ../index.php");
 }
 else {
     echo "Anda gagal login ";

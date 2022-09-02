@@ -15,17 +15,17 @@
 
     
     <!-- Custom styles for this template -->
-    <link href="assets/css/signin.css" rel="stylesheet">
+    <link href="../assets/css/signin.css" rel="stylesheet">
 
     <!-- Logo Title Bar -->
-    <link rel="icon" href="assets/img/logo-sgs.png" type="image/x-icon">
+    <link rel="icon" href="../assets/img/logo-sgs.png" type="image/x-icon">
 
   </head>
   <body class="text-center">
     
 <main class="form-signin">
   <form action="prosesLogin.php" method="post">
-    <img class="mb-4" src="assets/img/logo-sgs.png" alt="" width="72" height="57">
+    <img class="mb-4" src="../assets/img/logo-sgs.png" alt="" width="72" height="57">
     <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
 
     <div class="form-floating">

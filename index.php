@@ -63,7 +63,7 @@ header("Location: login/loginForm.php");
 
       <div class="navbar-button">
         <a class="btn btn-dark" href="daftar.php">Daftar</a>
-        <a href="sessionLogout.php" type="button" class="btn btn-dark">Logout</a>
+        <a href="login/sessionLogout.php" type="button" class="btn btn-dark">Logout</a>
       </div>
 
       </div>
