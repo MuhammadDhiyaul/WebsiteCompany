@@ -4,9 +4,29 @@ body{
 }
 
 .nav-link{
-    font-size: 16px;
+    font-size: 15px;
+}
+
+.nav-link:hover::after{
+    content: '';
+    display: block;
+    border-bottom: 3px solid #20578B;
+    width: 50%;
+    margin: auto;
+    margin-bottom: -3px;
 }
 
 .nav-link.active{
     font-weight: 700;
 }
+
+.tombol {
+    border-radius: 30px;
+}
+
+#about {
+    padding: 100px;
+    margin-top: 20px;
+}
+
+
