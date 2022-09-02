@@ -1,0 +1,12 @@
+body{
+    font-family: Poppins, sans-serif;
+    background-color: whitesmoke;
+}
+
+.nav-link{
+    font-size: 16px;
+}
+
+.nav-link.active{
+    font-weight: 700;
+}
