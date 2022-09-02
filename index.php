@@ -21,7 +21,7 @@ header("Location: login/loginForm.php");
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 
     <!-- My Style -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 
     <!-- Logo Title Bar -->
     <link rel="icon" href="assets/img/logo-sgs.png" type="image/x-icon">
